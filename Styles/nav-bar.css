@@ -1,0 +1,26 @@
+/* Nav Bar Styles */
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.nav-bar-wrapper > .img-wrapper {
+    margin: 10px;
+}
+
+.nav-bar-wrapper > .nav-link-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav-bar-wrapper > .nav-link-wrapper > .nav-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-bar-wrapper > .nav-link-wrapper > .nav-link a {
+    text-decoration: none;
+}

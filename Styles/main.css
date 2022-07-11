@@ -1,0 +1,12 @@
+/* Main Styles */
+body {
+    margin: 0px;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rebeccapurple;
+}
