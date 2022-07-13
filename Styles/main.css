@@ -5,6 +5,14 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
 .page-wrapper {
     display: flex;
     justify-content: space-evenly;
