@@ -1,0 +1,15 @@
+.about-content-wrapper {
+    margin: 20px
+}
+
+.paragraph-code {
+    margin: 10px 5px;
+}
+
+#code {
+    display: none;
+}
+
+#input-password-wrapper {
+    display: none;
+}
