@@ -9,6 +9,14 @@ p {
     margin: -20px;
 }
 
+a {
+    color: indigo;
+}
+
+a:hover {
+    color: darkviolet;
+}
+
 .left-align {
     text-align: left;
 }
