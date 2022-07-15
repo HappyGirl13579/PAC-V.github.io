@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+p {
+    margin: -20px;
+}
+
 .left-align {
     text-align: left;
 }
