@@ -2,3 +2,19 @@
 .content-wrapper {
     text-align: center;
 }
+
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.square-image img {
+    width: 100%;
+}

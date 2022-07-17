@@ -17,6 +17,10 @@ a:hover {
     color: darkviolet;
 }
 
+.spacer80 {
+    height: 80px;
+}
+
 .left-align {
     text-align: left;
 }
