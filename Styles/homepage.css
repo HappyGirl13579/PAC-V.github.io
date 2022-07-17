@@ -18,3 +18,8 @@
 .square-image img {
     width: 100%;
 }
+
+#code {
+    margin: 20px;
+    width: 1200px;
+}
