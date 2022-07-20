@@ -9,10 +9,17 @@
     flex-direction: column;
 }
 
-.square {
+.square-img-left, .square-img-right {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+
+.square-img-left {
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.square-img-right {
+    grid-template-columns: 1.5fr 1fr;
 }
 
 .square-image img {

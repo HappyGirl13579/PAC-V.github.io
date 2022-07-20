@@ -15,7 +15,7 @@ function showHideCode() {
         para1.appendChild(text2);
 
         var para2 = document.createElement("p");
-        var text3 = document.createTextNode("Now, on to the actual code. I'm sorry if you had to read that, ladies. That was just in case someone hacked on. So, first of all, 'The Base' means Grandma's house. Just to confuse people. For Cherelle's house, we can use 'The Castle' and for our house we can use 'The Pacific Abode'. People will get very confused on that second one. We could say 'otes' to mean outside and 'ites' to mean inside.");
+        var text3 = document.createTextNode("Now, on to the actual code. I'm sorry if you had to read that, ladies. That was just in case someone hacked on. So, first of all, 'The Base' means Grandma's house. Just to confuse people. For Cherelle's house, we can use 'The Castle' and for our house we can use 'The Pacific Abode'. People will get very confused on that second one. We could say 'otes' to mean outside and 'ites' to mean inside. A sleepover could be a 'meet'.");
         para2.appendChild(text3);
 
         var para3 = document.createElement("p");

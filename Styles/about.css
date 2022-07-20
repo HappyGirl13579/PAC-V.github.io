@@ -5,3 +5,7 @@
 #input-password-wrapper {
     display: none;
 }
+
+#code p {
+    margin: 10px;
+}
