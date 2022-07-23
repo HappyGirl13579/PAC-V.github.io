@@ -6,16 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./Styles/main.css" />
         <link rel="stylesheet" href="./Styles/nav-bar.css" />
+        <link rel="stylesheet" href="./Styles/todo.css" />
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        
+        <script src="./hidden/Javascript/todo.js"></script>
     </head>
     <body>
         <div class="nav-bar-wrapper" >
-            <div class="img-wrapper">
-                <img src="Images/Logo.png" />
-            </div>
+            <a href="./index.html">
+                <div class="img-wrapper">
+                    <img src="Images/Logo.png" />
+                </div>
+            </a>
 
             <div class="nav-link-wrapper">
                 <div class="nav-link">
@@ -31,13 +36,60 @@
         </div>
         <div class="page-wrapper">
             <div class="content-wrapper">
-                <h1>I need to...</h1>
-                <ul>
-                    <li>Plan a sleepover</li>
-                    <li>Make costumes</li>
-                    <li><s>Find a way for secret messages to work</s></li>
-                    <li></li>
-                </ul>
+                <h1>Todo</h1>
+
+                <div class="todo-select">
+                    <div class="todo-option">
+                        <h4>A</h4>
+                        <div class="show-todo-button">
+                            <button onclick='showInput("personInputA", this);'>Look at todo list</button>
+                        </div>
+                        <div id="todo-list-A-wrapper"></div>
+                        <div id="personInputA">
+                            <input type="text" id="personInputA2"/>
+                            <button onclick="showTodo(this, 'personInputA2')" id="A">Submit</button>
+                        </div>
+                    </div>
+                    <div class="todo-option">
+                        <h4>P</h4>
+                        <div class="show-todo-button">
+                            <button onclick='showInput("personInputP", this);'>Look at todo list</button>
+                        </div>
+                        <div id="todo-list-P-wrapper"></div>
+                        <div id="personInputP">
+                            <input type="text" id="personInputP2"/>
+                            <button onclick="showTodo(this, 'personInputP2')" id="P">Submit</button>
+                        </div>
+                    </div>
+                    <div class="todo-option">
+                        <h4>C</h4>
+                        <div class="show-todo-button">
+                            <button onclick='showInput("personInputC", this);'>Look at todo list</button>
+                        </div>
+                        <div id="todo-list-C-wrapper"></div>
+                        <div id="personInputC">
+                            <input type="text" id="personInputC2"/>
+                            <button onclick="showTodo(this, 'personInputC2')" id="C">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <p>
+                        This is the todo page. Villains
+                        need to know what next to do in
+                        their evil plans, right? So this
+                        is where the villains of this
+                        organization can go to see their
+                        things to do.
+                    </p>
+                    
+                    <p>
+                        You are not aloud to access the
+                        todo list unless you happen to be
+                        one of the three villains.
+                    </p>
+                </div>
             </div>
         </div>
     </body>

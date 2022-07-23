@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+.todo-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-option {
+    border: 1px black solid;
+    margin: 10px;
+    width: 200px;
+}
+
+.todo-option h4 {
+    text-align: center;
+}
+
+.todo-option .show-todo-button {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-option button {
+    margin-bottom: 10px;
+    background-color: black;
+    color: blueviolet;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.todo-option #personInputA, .todo-option #personInputP, .todo-option #personInputC {
+    display: none;
+}
+
+.todo-option #todo-list-wrapper {
+    font-size: 0.8em;
+}
+
+.info p {
+    margin: 10px;
+}
