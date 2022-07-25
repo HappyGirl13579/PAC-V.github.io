@@ -5,7 +5,7 @@ function showHideCode() {
     var input = document.getElementById('password');
     var input_text = input.value;
     console.log(input_text);
-    if (input_text === "0itmustbedeath") {
+    if (input_text === "1itmustbedeath") {
         var codeHeader = document.createElement("h3");
         var text = document.createTextNode("This is the code.");
         codeHeader.appendChild(text);
