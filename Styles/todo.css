@@ -41,3 +41,7 @@ h1 {
 .info p {
     margin: 10px;
 }
+
+.secret {
+    color: rebeccapurple;
+}
