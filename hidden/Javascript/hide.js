@@ -37,6 +37,38 @@ function showHideCode() {
         element.appendChild(para3);
         element.appendChild(closing);
         element.appendChild(ps);
+    } else if (input_text === "mtdewtasteslikedeath") {
+        var codeHeader = document.createElement("h3");
+        var text = document.createTextNode("Hello.");
+        codeHeader.appendChild(text);
+
+        var para1 = document.createElement("p");
+        var text2 = document.createTextNode("Good job clicking the secret word and entering the password. If you are a hacker, I both congratulate you and tell you to leave.");
+        para1.appendChild(text2);
+
+        var para2 = document.createElement("p");
+        var text3 = document.createTextNode("So why is this here? You are probably wondering that. Well, I decided to add some secret words. The Base is Cherelle's house. The Castle is P + A's house. The Pacific Abode is Grandma's house. And that's about it.");
+        para2.appendChild(text3);
+
+        var para3 = document.createElement("p");
+        var text4 = document.createTextNode("If you think of anything else, contact me.");
+        para3.appendChild(text4);
+
+        var closing = document.createElement("p");
+        var text5 = document.createTextNode("Best Regards, The Lady Anastasia");
+        closing.appendChild(text5);
+
+        var ps = document.createElement("p");
+        var text6 = document.createTextNode("P.S. Refresh to hide this again.");
+        ps.appendChild(text6);
+
+        var element = document.getElementById("code");
+        element.appendChild(codeHeader);
+        element.appendChild(para1);
+        element.appendChild(para2);
+        element.appendChild(para3);
+        element.appendChild(closing);
+        element.appendChild(ps);
     }
 }
 
