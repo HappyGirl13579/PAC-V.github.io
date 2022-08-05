@@ -11,7 +11,7 @@ function showHideCode() {
         codeHeader.appendChild(text);
 
         var para1 = document.createElement("p");
-        var text2 = document.createTextNode("You should know our code names. You also obviously know the secret password. You better not bea hacker or something. If you are, then WE DON'T ACTUALLY DO BAD THINGS. Just for your information. The others pretend we do, but we don't.");
+        var text2 = document.createTextNode("You should know our code names. You also obviously know the secret password. You better not be a hacker or something. If you are, then WE DON'T ACTUALLY DO BAD THINGS. Just for your information. The others pretend we do, but we don't.");
         para1.appendChild(text2);
 
         var para2 = document.createElement("p");
