@@ -19,10 +19,12 @@ p {
 
 a {
     color: indigo;
+    text-decoration: none;
 }
 
 a:hover {
     color: darkviolet;
+    text-decoration: none;
 }
 
 .spacer80 {
