@@ -5,7 +5,7 @@ function showHideCode() {
     var input = document.getElementById('password');
     var input_text = input.value;
     console.log(input_text);
-    if (input_text === "1itmustbedeath") {
+    if (input_text === "mtdewtasteslikedeath") {
         var codeHeader = document.createElement("h3");
         var text = document.createTextNode("This is the code.");
         codeHeader.appendChild(text);
@@ -37,7 +37,7 @@ function showHideCode() {
         element.appendChild(para3);
         element.appendChild(closing);
         element.appendChild(ps);
-    } else if (input_text === "mtdewtasteslikedeath") {
+    } else if (input_text === "1itmustbedeath") {
         var codeHeader = document.createElement("h3");
         var text = document.createTextNode("Hello.");
         codeHeader.appendChild(text);
