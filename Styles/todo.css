@@ -31,6 +31,10 @@ h1 {
     cursor: pointer;
 }
 
+.contact-wrapper {
+    margin-top: 100px;
+}
+
 .todo-option #personInputA, .todo-option #personInputP, .todo-option #personInputC {
     display: none;
 }
