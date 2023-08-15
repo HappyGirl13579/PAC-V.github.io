@@ -29,3 +29,7 @@
 #code {
     width: 1200px;
 }
+
+.page-header {
+    background-image: url('../Images/purple.jpg')
+}
